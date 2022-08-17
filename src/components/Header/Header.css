@@ -1,0 +1,280 @@
+.header-container{
+   
+    background-color: rgb(32, 32, 45);
+    width: 100%;
+    height: 100%;
+  
+}
+
+.header-top{
+   
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 1px black;
+
+}
+
+.header-top-left{
+   
+    width: 20%;
+    height: 100%;
+   
+}
+
+.header-top-left h2{
+    
+    text-align: center;
+    background: linear-gradient(yellow,red);
+    background-clip: text;
+    color: transparent;  
+}
+
+.header-top-center{
+   
+    width: 40%;
+    height: 100%;
+}
+
+.header-top-center ul{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    height: 50px;
+    padding-top: 9px;
+}
+.header-top-center ul a{
+   
+    text-decoration: none;
+   color: white;
+    cursor: pointer;
+    
+}
+
+.header-top-center ul a:hover{
+    background: linear-gradient(yellow,red);
+    background-clip: text;
+    color: transparent; 
+    cursor: pointer;
+}
+
+
+.header-top-center ul li{
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-top-center ul li:hover{
+    background: linear-gradient(yellow,red);
+    background-clip: text;
+    color: transparent; 
+    cursor: pointer;
+}
+
+.header-top-right{
+   
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.header-top-right div{
+    width: 15%;
+    height: 40%;
+}
+
+.header-top-right .icon{
+    
+   
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+  
+}
+
+.header-bottom{
+   background-image: url("https://swyftpizzas.com/wp-content/uploads/2018/03/veg-600x400.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+
+}
+
+.header-bottom h2{
+   
+    margin-top: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-bottom h2 span{
+    background: linear-gradient(yellow,red);
+    background-clip: text;
+    color: transparent; 
+
+}
+
+.header-bottom p{
+       
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+    
+}
+
+.header-bottom button{
+       
+    background: linear-gradient(yellow,red);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+   
+}
+
+.header-bottom button:hover{
+    box-shadow: 0px 0px 0px 1px black;
+}
+
+.header-bottom button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Carrito de compras*/
+.cart{
+    width:400px;
+    height: 500px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    right:0;
+    
+   
+}
+
+.cart-closed{
+    display: none;
+}
+
+.container-cart-inside{
+    
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.container-cart-inside h2{
+    
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.cart-item{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid black;
+   
+}
+
+.cart-item img{
+    width: 80px;
+    height: 80px;
+}
+
+.cart-item p{
+    font-size: 14px;
+    font-weight: bold;
+    width: 60px;
+    text-align: center;
+    
+}
+
+.cart-item button{
+    background-color:red;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 30px;
+    margin-right: 19px;
+   
+}
+
+.cart-item button:hover{
+    box-shadow: 0px 0px 0px 1px black;
+    cursor: pointer;
+}
+
+.container-price{
+   
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-price p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-price button{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+   
+   
+}

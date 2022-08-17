@@ -1,0 +1,126 @@
+.main-container{
+   border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.main-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-header p{
+    color: orange;
+    
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.main-header h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+}
+
+.main-options{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+
+.opciones{
+    width: 110px;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px solid orange;
+    margin: 10px;
+    padding-top: 12px;
+    font-weight: 600;
+    color: orange;
+   
+}
+
+.opciones:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+
+.container-comida{
+  
+    width: 70%;
+    height: 590px;
+    margin: 0 auto;
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-food{
+    width: 30%;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.card-food .card-img{
+    display: block;
+    width: 60%;
+    height: 40%;
+    margin-top: 35px;
+    border-radius: 15px;
+}
+
+.card-food h2{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    color: orange;
+}
+
+.card-food p{
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 10px;
+}
+
+.btn-comprar{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    background: linear-gradient( yellow, red);
+    border: none;
+    margin-top: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+

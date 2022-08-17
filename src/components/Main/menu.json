@@ -1,0 +1,73 @@
+[
+    {
+        "categoria" : "Pizza",
+
+        "comida": [
+           {
+                "nombre": "Pizza de queso",
+                "precio": 15.00,
+                "url": "https://st.depositphotos.com/2346379/2569/i/600/depositphotos_25696829-stock-photo-pizza.jpg",
+                "id":0
+
+            },
+            {
+                "nombre": "Pizza de jamon",
+                "precio": 15.00,
+                "url": "https://newluxbrand.com/wp-content/uploads/2022/01/pizza-jamo%CC%81n-y-queso-Newlux.jpg",
+                "id":1
+
+            },
+            {
+                "nombre": "Pizza de peperoni",
+                "precio": 15.00,
+                "url": "https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/02/p3.jpeg",
+                "id":2
+
+            },
+           {
+                "nombre": "Pizza de salami",
+                "precio": 15.00,
+                "url": "https://ichkocheheute.de/wp-content/uploads/2017/08/P1120510.jpg",
+                "id":3
+
+            }
+    ]
+    },
+
+    {   
+        "categoria":"Calzones",
+
+       "comida": [
+           {
+                "nombre": "Calzone de queso",
+                "precio": 15.00,
+                "url": "https://img.recetascomidas.com/recetas/320_240/calzone-de-queso.jpg",
+                "id":4
+
+            },
+          {
+                "nombre": "Calzone de jamon",
+                "precio": 15.00,
+                "url": "https://img-global.cpcdn.com/recipes/60b361717ca98327/1200x630cq70/photo.jpg",
+                "id":5
+
+            },
+           {
+                "nombre": "Calzone de peperoni",
+                "precio": 15.00,
+                "url": "https://hips.hearstapps.com/vidthumb/images/190130-calzone-horizontal-2-1549482540.png",
+                "id":6
+
+            },
+      {
+                "nombre": "Calzone de salami",
+                "precio": 15.00,
+                "url": "https://hips.hearstapps.com/vidthumb/images/190130-calzone-horizontal-2-1549482540.png",
+                "id":7
+
+            }
+       ]
+
+
+    }
+]
